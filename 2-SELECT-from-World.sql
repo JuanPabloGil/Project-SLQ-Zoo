@@ -53,7 +53,7 @@ WHERE gdp >= 1000000000000;
 -- Show the name and capital where the name and the capital have the same number of characters.
 -- You can use the LENGTH function to find the number of characters in a string
 SELECT name, capital FROM world
- WHERE LENGTH(name) = LENGTH(capital)
+WHERE LENGTH(name) = LENGTH(capital)
 
 --  12.The capital of Sweden is Stockholm. Both words start with the letter 'S'.
 -- Show the name and the capital where the first letters of each match. Don't include countries where the name and the capital are the same word.
